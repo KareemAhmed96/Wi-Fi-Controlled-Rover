@@ -8,10 +8,10 @@ port = 333
 
 clientsocket.connect((host, port))
 
-Motor_L_ClockWise		= machine.Pin(5, machine.Pin.OUT)
+Motor_L_ClockWise	= machine.Pin(5, machine.Pin.OUT)
 Motor_L_C_ClockWise 	= machine.Pin(4, machine.Pin.OUT) 
 
-Motor_R_ClockWise		= machine.Pin(0, machine.Pin.OUT)
+Motor_R_ClockWise	= machine.Pin(0, machine.Pin.OUT)
 Motor_R_C_ClockWise 	= machine.Pin(2, machine.Pin.OUT)
 
 while True:
