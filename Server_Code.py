@@ -1,7 +1,6 @@
 #TCP Server
 
 import socket
-import socket
 import pygame
 from pygame.locals import *
 
@@ -43,7 +42,6 @@ while True:
                     print(message)
                     clientsocket.send(message.encode('utf-8'))
 
-
                 if event.key ==  pygame.K_RIGHT:
                     message="right"
                     print(message)
@@ -58,6 +56,7 @@ while True:
                     message="down"
                     print(message)
                     clientsocket.send(message.encode('utf-8'))
+                    
         if event.type == pygame.KEYUP:
             message='key-up'
             clientsocket.send(message.encode('utf-8'))
