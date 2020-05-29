@@ -29,7 +29,6 @@ clientsocket, address = serversocket.accept()
     
 print('Recieved Connection from %s' % str(address))
 
-
 while True:
     
     events = pygame.event.get()
